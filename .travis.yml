@@ -42,8 +42,8 @@ before_script:
  - php ~/travis-support/travis_setup_php54_webserver.php --if-env BEHAT_TEST
 
 script:
- - "if [ \"$BEHAT_TEST\" = \"\" ]; then vendor/bin/phpunit subsites/tests; fi"
- - "if [ \"$BEHAT_TEST\" = \"1\" ]; then vendor/bin/behat @subsites; fi"
+  - "if [ \"$BEHAT_TEST\" = \"\" ]; then vendor/bin/phpunit subsites/tests; fi"
+  - "if [ \"$BEHAT_TEST\" = \"1\" ]; then vendor/bin/behat @subsites; fi"
   # Execute tests with no coverage.  This is the fastest option
   - "if [ \"$COVERAGE\" = \"0\" ]; then vendor/bin/phpunit $MODULE_PATH/tests/; fi"
 
@@ -51,7 +51,7 @@ script:
   - "if [ \"$COVERAGE\" = \"1\" ]; then vendor/bin/phpunit --coverage-clover=coverage.clover $MODULE_PATH/tests/; fi"
 
 after_script:
-    - "if [ \"$COVERAGE\" = \"1\" ]; then mv coverage.clover ~/build/$TRAVIS_REPO_SLUG/; fi"
-    - cd ~/build/$TRAVIS_REPO_SLUG
-    - wget https://scrutinizer-ci.com/ocular.phar
-    - "if [ \"$COVERAGE\" = \"1\" ]; then travis_retry codecov && travis_retry php ocular.phar code-coverage:upload --format=php-clover coverage.clover; fi"
+  - "if [ \"$COVERAGE\" = \"1\" ]; then mv coverage.clover ~/build/$TRAVIS_REPO_SLUG/; fi"
+  - cd ~/build/$TRAVIS_REPO_SLUG
+  - wget https://scrutinizer-ci.com/ocular.phar
+  - "if [ \"$COVERAGE\" = \"1\" ]; then travis_retry codecov && travis_retry php ocular.phar code-coverage:upload --format=php-clover coverage.clover; fi"
