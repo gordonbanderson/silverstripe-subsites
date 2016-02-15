@@ -1,4 +1,20 @@
 # Subsites Module
+[![Build Status](https://travis-ci.org/gordonbanderson/silverstripe-subsites.svg?branch=enhancedci)](https://travis-ci.org/gordonbanderson/silverstripe-subsites)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/gordonbanderson/silverstripe-subsites/badges/quality-score.png?b=enhancedci)](https://scrutinizer-ci.com/g/gordonbanderson/silverstripe-subsites/?branch=enhancedci)
+[![Build Status](https://scrutinizer-ci.com/g/gordonbanderson/silverstripe-subsites/badges/build.png?b=enhancedci)](https://scrutinizer-ci.com/g/gordonbanderson/silverstripe-subsites/build-status/enhancedci)
+[![codecov.io](https://codecov.io/github/gordonbanderson/silverstripe-subsites/coverage.svg?branch=enhancedci)](https://codecov.io/github/gordonbanderson/silverstripe-subsites?branch=enhancedci)
+
+[![Latest Stable Version](https://poser.pugx.org/silverstripe/subsites/version)](https://packagist.org/packages/silverstripe/subsites)
+[![Latest Unstable Version](https://poser.pugx.org/silverstripe/subsites/v/unstable)](//packagist.org/packages/silverstripe/subsites)
+[![Total Downloads](https://poser.pugx.org/silverstripe/subsites/downloads)](https://packagist.org/packages/silverstripe/subsites)
+[![License](https://poser.pugx.org/silverstripe/subsites/license)](https://packagist.org/packages/silverstripe/subsites)
+[![Monthly Downloads](https://poser.pugx.org/silverstripe/subsites/d/monthly)](https://packagist.org/packages/silverstripe/subsites)
+[![Daily Downloads](https://poser.pugx.org/silverstripe/subsites/d/daily)](https://packagist.org/packages/silverstripe/subsites)
+
+[![Dependency Status](https://www.versioneye.com/php/silverstripe:subsites/badge.svg)](https://www.versioneye.com/php/silverstripe:subsites)
+[![Reference Status](https://www.versioneye.com/php/silverstripe:subsites/reference_badge.svg?style=flat)](https://www.versioneye.com/php/silverstripe:subsites/references)
+
+![codecov.io](https://codecov.io/github/gordonbanderson/silverstripe-subsites/branch.svg?branch=enhancedci)
 
 [![Build Status](https://secure.travis-ci.org/silverstripe/silverstripe-subsites.png?branch=master)](http://travis-ci.org/silverstripe/silverstripe-subsites)
 
